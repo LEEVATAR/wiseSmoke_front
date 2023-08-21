@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Instafood",
-    "slug": "instafood-recipes-app",
+    "name": "wiseSmoke",
+    "slug": "wiseSmoke",
     "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
     "privacy": "public",
     "version": "1.0.0",
@@ -20,9 +20,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ssojae95.wiseSmoke"
     },
     "android": {
+      "package": "com.ssojae95.wiseSmoke",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
